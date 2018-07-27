@@ -1,0 +1,259 @@
+ /* CARDS */
+
+ :root {
+     --cardWidth: 340px;
+     --cardWidth-1: 170px;
+     --cardHeight-1: 300px;
+     --blue: #3F51B5;
+     --white: rgb(255, 255, 255, 0.87);
+     --green: #388e3c;
+     --red: #FF5252;
+ }
+
+ body {
+     /* position: relative !important; */
+     /* top: 0 !important; */
+     margin-top: 20px;
+ }
+
+ .green {
+     color: var(--green);
+ }
+ .white {
+    color: var(--white);
+}
+ .red {
+     color: var(--red);
+ }
+
+ a {
+     color: var(--blue);
+ }
+
+ a,
+ a:visited,
+ a:hover,
+ a:active {
+     color: var(--blue);
+ }
+
+ .cards {
+     margin: 10px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+
+ .tag {
+     cursor: default;
+     border-radius: 16px;
+     display: block;
+     height: 22px;
+     line-height: 22px;
+     padding: 0 12px 0 12px;
+     margin: 5px;
+     float: right;
+     background: var(--blue);
+     color: var(--white);
+     text-transform: capitalize;
+ }
+
+ .card {
+     height: 600px;
+     width: var(--cardWidth);
+     position: relative;
+     margin-bottom: 20px;
+     background-color: #ffffff;
+     border-radius: 3px;
+     overflow: hidden;
+     transition: all .2s ease;
+     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+ }
+
+ .card:hover {
+     cursor: pointer;
+     box-shadow: 0 8px 9px -5px rgba(0, 0, 0, .2), 0 15px 22px 2px rgba(0, 0, 0, .14), 0 6px 28px 5px rgba(0, 0, 0, .12);
+ }
+
+ /*
+ .card:hover .card-p-1 span {
+     position: absolute;
+     width: var(--cardWidth);
+     height: var(--cardHeight-1);
+     border-radius: 50%;
+     margin-top: 320px;
+     background-color: #b6bfc680;
+     animation: card-ripple .5s ease-in-out forwards;
+     transform: scale(0);
+ }
+
+ @keyframes card-ripple {
+     100% {
+         transform: scale(4);
+         opacity: 1;
+     }
+ } */
+
+ .card-p-1 {
+     width: var(--cardWidth);
+     height: var(--cardHeight-1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: inherit;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     /* ripple effect to be only in the card-1-p and not to spread to other elemets */
+     position: relative;
+     overflow: hidden;
+     border-bottom: 1px solid gainsboro;
+ }
+
+ .card-img {
+     z-index: 10;
+     width: var(--cardWidth);
+     height: var(--cardHeight-1);
+     /* center the image inside div */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .card-img img,
+ .modalImage img {
+     max-width: 100%;
+     max-height: 100%;
+     margin:15px;
+ }
+
+ .card-p-2 {
+     border-radius: inherit;
+     height: 206px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     margin: 0px;
+     padding: 10px;
+     line-height: 15px;
+     position: relative;
+     background-color: #b6bfc633;
+ }
+
+ .card-p-2 h4 {
+     margin: 15px 0px !important;
+ }
+
+ .card:hover .card-p-2 h4 {
+     text-decoration: underline;
+ }
+
+ .card-p-2 ul,
+ .modalContent ul {
+     font-size: .8em;
+     margin: 3px;
+ }
+
+ .moreDetails {
+     position: absolute;
+     bottom: -18px;
+     left: 0px;
+     width: 100%;
+     background: white;
+     float: right;
+     text-align: right;
+     height: 40px;
+     line-height: 40px;
+ }
+
+ .card-p-3 {
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     display: flex;
+     justify-content: start;
+     width: 100%;
+ }
+
+ .price {
+     font-size: 36px;
+     margin: 4px;
+ }
+
+ .availability,
+ .delivery {
+     text-align: right;
+     font-weight: 500;
+ }
+
+ /* 
+  */
+
+ .LRmarginAuto {
+     margin: 0 auto;
+ }
+
+ md-radio-button {
+     float: right;
+     margin-bottom: 0px;
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+
+ md-toolbar,
+ .md-toolbar-tools {
+     height: 50px !important;
+     min-height: 50px !important;
+ }
+
+ .modalCancelBtn {
+     border-radius: 30px;
+     height: 30px;
+     width: 20px;
+     padding: 0px;
+     font-size: 30px;
+     position: absolute;
+     right: 10px;
+ }
+
+ md-dialog md-dialog-content {
+     width: 800px;
+ }
+
+ .container {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
+ @media (min-width: 768px) {
+     .container {
+         width: 750px;
+     }
+     md-dialog md-dialog-content {
+         width: 700px;
+     }
+ }
+
+ @media (min-width: 992px) {
+     .container {
+         width: 970px !important;
+     }
+ }
+
+ @media (min-width: 1200px) {
+     .container {
+         width: 1170px !important;
+     }
+ }
+
+ /* ani */
+
+ .modalImage {
+     width: 100%;
+     min-height: 400px;
+     /* center the image inside div */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
