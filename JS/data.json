@@ -1,0 +1,320 @@
+{
+  "product": [
+    {
+      "name": "Philips Viva Collection HD4928/01 2100-Watt Induction Cooktop (Black) ",
+      "category": "electronics",
+      "price": 2527,
+      "details": [
+        "This product does not require installation. please contact brand customer care for any product related queires. Customer Service Number: 18001022929",
+        "Programmed for Indian cooking",
+        "Touch start for ease of use",
+        "0 to 3 hours time setting",
+        "Auto-off program cooks food safely",
+        "More comfortable cooking without flame",
+        "Cool-to-touch surface cooks foods safely"
+      ],
+      "freeDelivery": false,
+      "available": false,
+      "productId": 4004,
+      "imageSource": "../interviewProject/Images/electronics4.jpg"
+    },
+    {
+      "name": " Bestvech Luxury Bracelet Geneva Roman Faux Leather Analogue Quartz Analogue Women's Wristwatch ",
+      "category": "watch",
+      "price": 379,
+      "details": [
+        "Super Strength Bracelet Watch Folded Buckle Secure Wearing And Easy On And Off",
+        "The Bracelet Watch Is Manufactured With Exquisite High Finishing",
+        "These Bracelet Watch Feature Fashionably And Elegantly Designed",
+        "The Precise Surface Decent Watch Is Very Charming For All Occasions",
+        "Fashion And Popular Design Of This Wrist Watch Goes From The Boardroom To The Dinner Party With Ease"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 1003,
+      "imageSource": "../interviewProject/Images/watch3.jpg"
+    },
+    {
+      "name": "Timex Expedition Analog-Digital Beige Dial Men's Watch - MF13 ",
+      "category": "watch",
+      "price": 2184,
+      "details": [
+        "This watch is a Men's watch with 37.7 MM case diameter. The dial might appear smaller than what is seen on the Image. Please refer to the scale shot image to understand exact size of the watch",
+        "This watch comes with a Indiglo feature. A dark dot appears near the index number 23 when the Indiglo feature is used. This is inherent in the design of the watch and not a defect of the watch",
+        "Dial Color: Beige, Case Shape: Round, Dial Glass Material: Mineral",
+        "Band Color: Brown, Band Material: Leather",
+        "Watch Movement Type: Quartz, Watch Display Type: Analog-Digital",
+        "Water Resistance Depth: 50 meters",
+        "Warranty type:Manufacturer; 1 Year Manufacturer Warranty"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 1001,
+      "imageSource": "../interviewProject/Images/watch1.jpg"
+    },
+    {
+      "name": "Lifelong Power Pro 500-Watt Mixer Grinder with 3 Jars (White/Grey) ",
+      "category": "electronics",
+      "price": 1250,
+      "details": [
+        "Since your mixer grinder runs on a powerful motor, there will be some noise. If noise level seems to be abnormal then please contact Brand Customer Support Team",
+        "3 Jars - Liquidizing jar (1.25 Litres), Dry or wet grinding jar (0.8 Litres), Chutney jar (0.5 Litres)",
+        "Extra thick jars for longer life. Flow breaker in jars for fast and effective grinding"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 4003,
+      "imageSource": "../interviewProject/Images/electronics3.jpg"
+    },
+    {
+      "name": "Fastrack Black Magic Analog Blue Dial Men's Watch -NK3089SL01",
+      "category": "watch",
+      "price": 2000,
+      "details": [
+        "Dial Color: Blue, Case Shape: Round, Dial Glass Material: Mineral",
+        "Band Color: Black, Band Material: Leather",
+        "Watch Movement Type: Quartz, Watch Display Type: Analog",
+        "Case Material: Brass, Case Diameter: 47 x 40 millimeters",
+        "Water Resistance Depth: 50 meters, Buckle Clasp",
+        "2 Year Warranty on movement and 1 year for Battery"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 1002,
+      "imageSource": "../interviewProject/Images/watch2.jpg"
+    },
+    {
+      "name": "Nivea Nourishing Lotion Body Milk Richly Caring for Very Dry Skin, 400ml",
+      "category": "beauty",
+      "price": 340,
+      "details": [
+        "The formula with Almond oil softens the skin",
+        "Give your very dry skin intensive care",
+        "Long-lasting softness and protection"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 3005,
+      "imageSource": "../interviewProject/Images/beauty5.jpg"
+    },
+    {
+      "name": "French Connection Men's Printed Slim Fit T-Shirt",
+      "category": "cloth",
+      "price": 650,
+      "details": [
+        "100% Cotton",
+        "Slim fit",
+        "Short sleeve",
+        "Machine wash",
+        "Made in India"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 2003,
+      "imageSource": "../interviewProject/Images/cloth3.jpg"
+    },
+    {
+      "name": "Diverse Men's Printed Slim Fit Formal Shirt",
+      "category": "cloth",
+      "price": 495,
+      "details": [
+        "This brand is available exclusively on Amazon",
+        "Machine wash warm, wash dark colors separately, do not bleach, tumble dry low, warm iron",
+        "French placket for a clean dressy appeal, patch pocket at chest",
+        "Disclaimer: Product colour may slightly vary due to photographic lighting sources or your monitor settings",
+        "Made in India"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 2001,
+      "imageSource": "../interviewProject/Images/cloth1.jpg"
+    },
+    {
+      "name": "FORSURE Rose Pink,Hot Red,Magenta,Maroon Velvet Matte Lipstick ",
+      "category": "beauty",
+      "price": 429,
+      "details": [
+        "Staying on up to 8 hours on application",
+        "A one of a kind product in India",
+        "Extra Soft,Smooth And Velvet Matte",
+        "Colors Include : Nude,Brick Nude,Hot Red,Magenta"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 3001,
+      "imageSource": "../interviewProject/Images/beauty1.jpg"
+    },
+    {
+      "name": "Casio Enticer Black Dial Men's Watch - MTP-1374D-1AVDF (A832)",
+      "category": "watch",
+      "price": 4500,
+      "details": [
+        "Dial Color: Black, Case Shape: Round, Dial Glass Material: Mineral",
+        "Band Color: Silver, Band Material: Stainless Steel",
+        "Watch Movement Type: Quartz, Watch Display Type: Analog",
+        "Water Resistance Depth: 50 meters",
+        "Warranty type:Manufacturer; 2 Years Domestic Warranty"
+      ],
+      "freeDelivery": false,
+      "available": false,
+      "productId": 1004,
+      "imageSource": "../interviewProject/Images/watch4.jpg"
+    },
+    {
+      "name": "HP DeskJet 2131 All-in-One Colour Printer",
+      "category": "electronics",
+      "price": 3000,
+      "details": [
+        "Fresh, friendly and inviting design with accent colours, faster print speeds",
+        "Easily set up this all-in-one to print, scan, and copy with simple controls; Save your space with a compact all-in-one designed to fit where you need it",
+        "Maximum print resolution: 4800 x 1200 dpi",
+        "Number of print cartridges: 2 (1 black, 1 Tri-color)",
+        "For any installation query/issues/defects related to this product, contact_us on: [ 1800-20000-47 ]"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 4002,
+      "imageSource": "../interviewProject/Images/electronics2.jpg"
+    },
+    {
+      "name": "Beardo Mustache Growth Roll On - 8 ml ",
+      "category": "beauty",
+      "price": 220,
+      "details": [
+        "Moisturizes your beard and mustache",
+        "Conditions the roots of the skin",
+        "Makes it manageable and frizz-free"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 3002,
+      "imageSource": "../interviewProject/Images/beauty2.jpg"
+    },
+    {
+      "name": "Lenovo 80T700L2IN 15.6-inch Laptop (PQC - N3710/4GB/500GB/Window 10 Home/Integrated Graphics), Black ",
+      "category": "electronics",
+      "price": 20700,
+      "details": [
+        "GHz Intel PQC - N3710 processor",
+        "4GB DDR4 RAM",
+        "500GB hard drive",
+        "15.6-inch screen, Integrated Graphics",
+        "Window 10 Home (64 Bit) operating system",
+        "2.2kg laptop",
+        "For queries/assistance please contact the support no.:1800-419-7555"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 4005,
+      "imageSource": "../interviewProject/Images/electronics5.jpg"
+    },
+    {
+      "name": "RealMe 1 (Diamond Black, 4+64 GB) ",
+      "category": "electronics",
+      "price": 11000,
+      "details": [
+        "13MP primary camera with beautify, filter, HDR, panorama, ultra HD and 8MP front facing camera",
+        "15.2 centimeters (6-inch) 1080p FHD capacitive touchscreen with 2160 x 1080 pixels resolution and 403 ppi pixel density",
+        "Android v8.1 Oreo operating system with 2GHz MTK Helio P60 AI octa core processor with 8-cores CPU, 4GB RAM, 64GB internal memory expandable up to 256GB and dual SIM (nano+nano) dual-standby (4G+4G)",
+        "3410mAH lithium-ion battery providing talk-time of 30 hours and standby time of 380 hours"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 4006,
+      "imageSource": "../interviewProject/Images/electronics6.jpg"
+    },
+    {
+      "name": "Peter England Men's Printed Slim Fit Polo ",
+      "category": "cloth",
+      "price": 1044,
+      "details": [
+        "100% Cotton",
+        "Slim fit",
+        "Button down",
+        "Made in India",
+        "Machine wash"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 2002,
+      "imageSource": "../interviewProject/Images/cloth2.jpg"
+    },
+    {
+      "name": "Trendy Trotters Cotton Stretchable Dark Blue Denim Jeans",
+      "category": "cloth",
+      "price": 1751,
+      "details": [
+        "Style : Casual Wear, Perfect For : Men And Boys.",
+        "Regular Comfortable Fitting Jeans , Zip Fly with button closure",
+        "Cold Machine wash recommended. Due to the inherent nature of Jens fabrics, the surface color may bleed or rub off onto lighter surfaces. Wash with similar colors-turn inside out before washing and drying",
+        "Disclaimer : Kindly Refer To The Size Chart (Also In Images) For Fiting Measurements. Actual color may vary owing to Screen reolution & photography lighting."
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 2005,
+      "imageSource": "../interviewProject/Images/cloth5.jpg"
+    },
+    {
+      "name": "Fogging Embroidered Eyebrow Eyeliner Tattoo Pen- Coffee ",
+      "category": "beauty",
+      "price": 1550,
+      "details": [
+        "New and Imported",
+        "Type: Manual Eyebrow Tattoo Pen Material: Alloy",
+        "Length: Approx 14cm Weight: Approx 40g",
+        "Color: Coffee, Golden, Red",
+        "Package Included: 1 x Eyebrow Tattoo Pen"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 3003,
+      "imageSource": "../interviewProject/Images/beauty3.jpg"
+    },
+    {
+      "name": "Nivea Soft Crème 50ml",
+      "category": "beauty",
+      "price": 68,
+      "details": [
+        "Refreshing and Hydrating",
+        "Contains Vitamin E and Jojoba oil",
+        "Non-greasy, quick absorbing formula",
+        "Skin Type: All skin type",
+        "Applied for: Moisturising skin and providing nourishment"
+      ],
+      "freeDelivery": true,
+      "available": false,
+      "productId": 3004,
+      "imageSource": "../interviewProject/Images/beauty4.jpg"
+    },
+    {
+      "name": "Ben Martin Men's Relaxed Jeans ",
+      "category": "cloth",
+      "price": 799,
+      "details": [
+        "Style : Casual Wear.Material : Denim Jeans. Wash Care Instructions : Do Not Bleach, Dry In Shade.",
+        "What You See Is What You Get: We Strive To Make Our Colors As Accurate As Possible. Due To Monitor Settings, Monitor Pixel Definitions, We Cannot Guarantee That The Color You See On Your Screen As An Exact Color Of The Product.",
+        "Quality Guaranteed: This Men's Jeans Is Made With100% Pre-Shrunk And Pill-Resistant Cotton. High Quality, Very Stretchy. Still Perfect Fit Even After The Wash.Disclaimer : Kindly Refer To The Size Chart (Also In Images) For Fitting Measurements."
+      ],
+      "freeDelivery": false,
+      "available": false,
+      "productId": 2004,
+      "imageSource": "../interviewProject/Images/cloth4.jpg"
+    },
+    {
+      "name": "Orpat OEI 187 1200-Watt Dry Iron (White and Blue)",
+      "category": "electronics",
+      "price": 529,
+      "details": [
+        "This product does not require installation. please contact brand customer care for any product related queires. Customer Service Number: +91-02822-230491 / 02822-391391",
+        "Ergonomic design and Light weight with instant heating",
+        "German grade non-stick coated sole plate",
+        "Thermal Fuse For Over Heat Safety Protection",
+        "Power Indicator"
+      ],
+      "freeDelivery": false,
+      "available": true,
+      "productId": 4001,
+      "imageSource": "../interviewProject/Images/electronics1.jpg"
+    }
+  ]
+}

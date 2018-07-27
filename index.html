@@ -1,0 +1,162 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="../interviewProject/CSS/angular-material.min.css">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="../interviewProject/CSS/main.css">
+</head>
+
+<body ng-app="ProductApp" ng-cloak>
+    <div ng-controller="ctrl as productController" class="container">
+
+        <md-whiteframe style="padding:0px 20px; background-color: white;" layout="row" layout-align="start" class="md-whiteframe-3dp">
+            <md-input-container flex="50">
+                <label>Categories</label>
+                <md-select ng-model="sortCategoryValue">
+                    <md-option ng-value="">All</md-option>
+                    <md-option ng-repeat="eachCategory in sortCategories" ng-value="eachCategory">
+                        {{eachCategory}}
+                    </md-option>
+                </md-select>
+            </md-input-container>
+
+            <md-radio-group ng-model="priceSort" flex="50">
+                <md-radio-button value="+price" class="md-primary" aria-label="Low">Low - High</md-radio-button>
+                <md-radio-button value="-price" class="md-primary" aria-label="High">High - low</md-radio-button>
+            </md-radio-group>
+        </md-whiteframe>
+
+
+        <div class="cards">
+            <div class="card card-1" ng-repeat="eachProductData in productData | filter:{category: sortCategoryValue} | orderBy:priceSort">
+                <p class="tag">{{eachProductData.category}}</p>
+                <div class="card-p-1">
+                    <span></span>
+                    <div class="card-img">
+                        <img ng-src="{{eachProductData.imageSource}}" class="md-card-image" alt="{{eachProductData.category}}-{{eachProductData.productId}}">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="card-p-2">
+                    <span></span>
+                    <h5>{{eachProductData.name}}</h5>
+                    <p class="price">
+                        {{eachProductData.price | currency}}
+                    </p>
+                    <p class="availability">
+                        <span ng-if="eachProductData.available" class="green">
+                            Available
+                        </span>
+                        <span ng-if="!eachProductData.available" class="red">
+                            Unavailable
+                        </span>
+                    </p>
+                    <p class="delivery">
+                        <span ng-if="!eachProductData.freeDelivery" class="green">
+                            Free delivery
+                        </span>
+                        <span ng-if="eachProductData.freeDelivery" class="red">
+                            Delivery cost may apply*
+                        </span>
+                    </p>
+                    <!-- <ul ng-repeat="eachDetails in eachProductData.details">
+                        <li>{{eachDetails}}</li>
+                    </ul> -->
+                    <p class="moreDetails">
+                        <a href="#" style="padding-right: 10px;" ng-click="openDetailsModal($event, eachProductData)">more details!</a>
+                    </p>
+                </div>
+
+                <div class="card-p-3">
+                    <md-button class="md-raised">+ cart</md-button>
+                    <md-button class="md-raised md-warn">+ wishlist</md-button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- SCRIPT -->
+    <script src="../interviewProject/JS/Libraries/angular.min.js"></script>
+    <script src="../interviewProject/JS/Libraries/angular-animate.min.js"></script>
+    <script src="../interviewProject/JS/Libraries/angular-aria.min.js"></script>
+    <script src="../interviewProject/JS/Libraries//angular-messages.min.js"></script>
+    <script src="../interviewProject/JS/Libraries/angular-material.min.js"></script>
+    <script src="../interviewProject/JS/app.js"></script>
+
+
+    <script type="text/ng-template" id="openDetailsModal.html">
+    <md-dialog aria-label="Industry Breakup">
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <div class="LRmarginAuto">
+                    <h2>More Details!</h2>
+                </div>
+                <md-button class="modalCancelBtn" ng-click="close()">&times;</md-button>
+            </div>
+        </md-toolbar>
+        <md-dialog-content>
+            <div class "productDataModal" layout="row" layout-align="start">
+                <div class="modalImage" flex="40">
+                    <img ng-src="{{eachProductData.imageSource}}" alt="{{eachProductData.category}}-{{eachProductData.productId}}">
+                    <p></p>
+                </div>
+                <div class="modalContent" flex="60" style="padding:15px;">
+                    <span></span>
+                    <h4 style="text-decoration:underline;">{{eachProductData.name}}</h4>
+                    <p class="price">
+                        {{eachProductData.price | currency}}
+                    </p>
+                    <p class="availability">
+                        <span ng-if="eachProductData.available" class="green">
+                            Available
+                        </span>
+                        <span ng-if="!eachProductData.available" class="red">
+                            Unavailable
+                        </span>
+                    </p>
+                    <p class="delivery">
+                        <span ng-if="!eachProductData.freeDelivery" class="green">
+                            Free delivery
+                        </span>
+                        <span ng-if="eachProductData.freeDelivery" class="red">
+                            Delivery cost may apply*
+                        </span>
+                    </p>
+                    <ul ng-repeat="eachDetails in eachProductData.details">
+                        <li>{{eachDetails}}</li>
+                    </ul>
+                </div>
+            </div>
+        </md-dialog-content>
+        <md-dialog-actions layout="row">
+            <md-button class="md-raised">Add to cart</md-button>
+            <md-button class="md-raised md-warn">Add to wishlist</md-button>
+        </md-dialog-actions>
+    </md-dialog>
+    </script>
+</body>
+
+</html>
+
+<!--
+Develop a small application in AngularJS (specifically AngularJS version 1 only) that shows product groups and list of products in that group 
+when clicked on it (e.g. Group ‘Electronics’, on click shows ‘TV’, ‘Laptop’ etc. with image and good UI, be creative). 
+It should also feature search and sortable functionality among the items in the category.
+
+browser-sync start --server --directory --files "**/*"
+
+flex-xs="" flex-gt-xs="10" layout="column"
+-->
