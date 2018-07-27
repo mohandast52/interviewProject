@@ -1,2 +1,2 @@
 # interviewProject
-Small angular project!
+Small angular project using angularJS and angular-material!
